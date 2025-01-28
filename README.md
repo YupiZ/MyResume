@@ -17,6 +17,9 @@ Welcome to my personal resume website repository! This project is a modern, resp
 ## 🚀**Technologies Used**
 
 **Framework:** React
+
 **Build Tool:** Vite
+
 **Styling:** TailwindCSS
+
 **Icons:** Lucide React
