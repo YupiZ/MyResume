@@ -1,22 +1,21 @@
-import React, { useState } from "react";
-import Button from "./components/button";
+// import React, { useState } from "react";
+// import Button from "./components/button";
 import "./styles/App.css";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
-	const [count, setCount] = useState(0);
-
-	const clickHandler = () => {
-		setCount(count + 1);
-	};
+	
 
 	return (
-		<section className="h-screen flex justify-center items-center bg-slate-200">
-			<div className="flex flex-col gap-4 items-center">
-				<h1 className="text-3xl text-center text-red-700">Welcome to Vite with TailwindCSS and React</h1>
-				<Button onClick={clickHandler} children="Click Me" />
-				<p>Count: {count}</p>
-			</div>
-		</section>
+		<>
+			<Home />;
+			<About />;
+			<Contact />;
+			<Portfolio />;
+		</>
 	);
 }
 
