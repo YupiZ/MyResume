@@ -33,7 +33,9 @@ const Header = () => {
         >
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4">
                 {/* Logo / Name */}
-                <a className="text-2xl font-bold text-blue-600">Your Name</a>
+                <a href="#" className="text-2xl font-bold text-blue-600">
+                    Your Name
+                </a>
 
                 {/* Hamburger Menu Button for Mobile */}
                 <button
