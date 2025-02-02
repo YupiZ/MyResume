@@ -21,15 +21,15 @@ function Home({ name, subtitles = [] }) {
     return (
         <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-gray-100 via-white to-gray-200 bg-cover bg-center px-6 text-gray-900 md:px-12">
             <img
-                src={import.meta.env.BASE_URL + "/public/images/bg.jpg"}
+                src="/public/images/bg.jpg"
                 alt=""
                 className="absolute left-0 top-0 z-[2] h-full w-full object-cover"
             />
-            <div className="z-1 mb-8 mt-64 text-center z-[3]">
+            <div className="z-1 z-[3] mb-8 mt-64 text-center">
                 <h1 className="text-3xl font-bold leading-tight text-blue-600 sm:text-4xl md:text-5xl">
                     {name}
                 </h1>
-                <p className="text-md mt-2 mb-5 italic text-white sm:text-lg md:text-xl">
+                <p className="text-md mb-5 mt-2 italic text-white sm:text-lg md:text-xl">
                     {currentSubtitle}
                 </p>
                 <a

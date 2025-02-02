@@ -26,7 +26,7 @@ function Nav({ isOpen, isScrolled }) {
                 </li>
                 <li>
                     <a
-                        href="#projects"
+                        href="#portfolio"
                         className="text-white underline-offset-4 transition hover:text-blue-600 hover:underline"
                     >
                         Projects
